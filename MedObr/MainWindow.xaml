@@ -1,0 +1,28 @@
+﻿<Window x:Class="MedObr.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedObr"
+        mc:Ignorable="d"
+        Title="Медицинское оборудование" Height="550" Width="800" Icon="/Res/icon2.png" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid Background="#9c1923" Grid.Row="0"></Grid>
+        <Grid Background="#f1eff2" Grid.Row="1"></Grid>
+        <Grid Background="#1c3c78" Grid.Row="2"></Grid>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+            <Image Source="Res/icon2.png" Width="45" HorizontalAlignment="Left" Grid.Row="0"></Image>
+            <TextBlock Text="Медицинское оборудование" Margin="15,0,0,0" TextAlignment="Center" VerticalAlignment="Center" FontSize="20pt" FontWeight="Bold" Foreground="White" ></TextBlock>
+        </StackPanel>
+
+        <Frame Grid.Row="1" ContentRendered="Frame_ContentRendered" NavigationUIVisibility="Hidden" x:Name="FrmMain" ></Frame>
+        <Button Background="#1c3c78" BorderBrush="#1c3c78" Visibility="Hidden" Content="Назад" Name="BtnBack" Click="BtnBack_Click" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="2"></Button>
+    </Grid>
+</Window>

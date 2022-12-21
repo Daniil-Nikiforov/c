@@ -1,0 +1,25 @@
+﻿<Window x:Class="MedObr.MainPages.Captcha"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MedObr.MainPages"
+        mc:Ignorable="d"
+        Title="Captcha" Height="350" Width="300" WindowStyle="None" ResizeMode="NoResize" WindowStartupLocation="Manual">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <TextBlock Foreground="Black" x:Name="tbTime" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="0" FontFamily="Harlow Solid Italic"></TextBlock>
+        <TextBlock Foreground="Black" x:Name="txcaptcha" HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Row="1" FontFamily="Harlow Solid Italic"></TextBlock>
+        <TextBox x:Name="txBoxCaptcha" Grid.Row="2"></TextBox>
+        <Button Name="obno" Grid.Row="3" Content="Обновить" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click2"></Button>
+        <Button Name="vvod" Grid.Row="4" Content="Ввод" Height="25" HorizontalAlignment="Center" VerticalAlignment="Center" Click="Button_Click"></Button>
+    </Grid>
+</Window>

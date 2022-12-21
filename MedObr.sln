@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedObr", "MedObr\MedObr.csproj", "{1E90B34A-FE55-4B70-BFF9-00FD541ACB45}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MedObrTests", "MedObrTests\MedObrTests.csproj", "{B671D715-B920-437B-830E-6EFFF1BD0B5F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1E90B34A-FE55-4B70-BFF9-00FD541ACB45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E90B34A-FE55-4B70-BFF9-00FD541ACB45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E90B34A-FE55-4B70-BFF9-00FD541ACB45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E90B34A-FE55-4B70-BFF9-00FD541ACB45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B671D715-B920-437B-830E-6EFFF1BD0B5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B671D715-B920-437B-830E-6EFFF1BD0B5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B671D715-B920-437B-830E-6EFFF1BD0B5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B671D715-B920-437B-830E-6EFFF1BD0B5F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3538797F-9589-4226-8567-34CBA6EC1296}
+	EndGlobalSection
+EndGlobal
